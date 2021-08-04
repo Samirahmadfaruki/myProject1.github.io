@@ -1,0 +1,201 @@
+
+html {
+	
+}
+
+
+
+.main-flex{
+	
+
+	display: flex;
+
+
+}
+
+
+}
+.side-bar{
+	
+}
+.button {
+	margin: 64px;
+	background-color:  hsl(0deg 100% 65%);;
+	height: 42px;
+	width: 92px;
+	border-radius: 16px;
+}
+.heading{
+	width: 100wv;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+.heading-child{
+	width: 60%;
+}
+.text{
+	width: 40%;
+}
+#text-para{
+	margin-left: 70px;
+	margin-top: 83px;
+	border-bottom: solid 2px red;
+	font-size: 1.2rem;
+}
+
+.menu {
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	
+	justify-content: space-around;
+	flex-shrink: inherit;
+	text-align: center;
+	flex-direction: row;
+	background-color: hsl(0deg 0% 87% / 36%);
+}
+.food-item {
+	border-radius: 32px;
+	background-color: white;
+	margin: 12px;
+}
+img {
+	border-radius: 88px;
+	height: 160px;
+	width: 160px;
+	padding: 10px;
+}
+
+
+
+
+
+
+ul{
+	list-style-type: none;
+	text-decoration: none;
+	margin: 15px;
+}
+
+a {
+	font-size: 1.2rem;
+	color: #0000009c;
+	text-decoration: none;
+}
+
+li.liclass {
+
+	margin: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-size{
+	margin-left: 31px;
+	font-size: 4rem;
+}
+.font-size{
+	margin-left: 31px;
+	font-size: 4rem;
+}
+.food-para{
+	font-weight: bolder;
+}
+
+.media{
+	display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+	.heading-child{
+		width: 100%;
+	}
+
+	.text{
+		width: 100%;
+		order: 3;
+	}
+
+
+
+	.menu {
+		width: 100%;
+		flex-wrap: wrap;
+		display: flex;
+		
+		justify-content: space-around;
+		flex-shrink: inherit;
+		text-align: center;
+		flex-direction: row;
+		background-color: hsl(0deg 0% 87% / 36%);
+	}
+	.side-bar{
+		display: none;		
+	}
+	h1.font-size {
+		font-size: 3rem;
+	}
+	#no {
+		display: none;
+	}
+
+
+	.media{
+		display:flex;
+		text-align: center;
+		flex-direction: row;
+		width: 100%;
+		align-content: center;
+
+	}
+	.humburger{
+		width: 33%;
+
+	}
+	.lorem{
+		width: 33%;
+		
+	}
+	.cart{
+		width: 33%;
+		
+	}
+	.humburger-menu{
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin: 6px 0;
+	}
+	::before {
+		font-size: -webkit-xxx-large;
+	}
+	h1{
+		font-size: 4rem;
+
+	}
+}
